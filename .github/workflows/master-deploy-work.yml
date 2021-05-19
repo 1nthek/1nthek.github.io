@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    if: github.repository == '1nthek/devlog-frontend'
+    if: github.repository == '1nthek/1nthek.github.io'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source code
